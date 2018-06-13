@@ -50,3 +50,6 @@ git diff [--cached|--stat|HEAD] # 显示尚未缓存的改动|已缓存的改动
 
 ## git 更新与合并
 ## git 标签
+
+## FAQ
+* 在工作区创建一个空的文件夹后，使用git status 显示版本没有 变化
