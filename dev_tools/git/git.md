@@ -52,4 +52,12 @@ git diff [--cached|--stat|HEAD] # 显示尚未缓存的改动|已缓存的改动
 ## git 标签
 
 ## FAQ
-* 在工作区创建一个空的文件夹后，使用git status 显示版本没有 变化
+1.  在工作区创建一个空的文件夹后，使用git status 显示版本没有变化
+```sh
+在空目录下新建.gitignore文件，内容如下
+
+# Ignore everything in this directory  
+*  
+# Except this file  
+!.gitignore  
+```
